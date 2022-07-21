@@ -5,7 +5,7 @@ function Header() {
   return (
     <header id= "header" className='header'>
       <div>
-        Welcome to my react portfolio!
+        Welcome to Jefferson Quandts's react portfolio!
       </div>
       <Nav/>
 
