@@ -1,8 +1,11 @@
 import React from 'react';
-import { Container, SvgIcon, Tooltip } from '@mui/material';
+import {Container, SvgIcon, Tooltip } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import './style.css';
+import './style.css';
+import EmailIcon from '@mui/icons-material/Email';
+import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 
 function Footer() {
   return (
@@ -38,6 +41,29 @@ function Footer() {
               />
             </Tooltip>
           </a>
+          <a
+          href='mailto:jquandt411@gmail.com'
+          rel='noreferrer'
+          target='_blank'
+        >
+          <Tooltip title='Email directly'>
+            <SvgIcon alt='email-icon' fontSize='large' component={EmailIcon} />
+          </Tooltip>
+        </a>{' '}
+        {/*  */}
+        <a
+          href='https://discordapp.com/users/jefid#0311'
+          rel='noreferrer'
+          target='_blank'
+        >
+          <Tooltip title='Add me on Discord'>
+            <SvgIcon
+              alt='discord-icon'
+              fontSize='large'
+              component={SportsEsportsIcon}
+            />
+          </Tooltip>
+        </a>
         </Container>
 </footer>
   );

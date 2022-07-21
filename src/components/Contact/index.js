@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import { Button, Container, TextField, SvgIcon, Tooltip } from '@mui/material';
+import { Button, Container, TextField} from '@mui/material';
 import './style.css';
-import EmailIcon from '@mui/icons-material/Email';
-import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 
 function Contact() {
   const [name, setName, email, setEmail, message, setMessage] = useState('');
@@ -11,34 +9,6 @@ function Contact() {
     <div id= "maincontact">
 
         <h1> HMU </h1>
-
-
-      <Container>
-        <a
-          href='mailto:jquandt411@gmail.com'
-          rel='noreferrer'
-          target='_blank'
-        >
-          <Tooltip title='Email directly'>
-            <SvgIcon alt='email-icon' fontSize='large' component={EmailIcon} />
-          </Tooltip>
-        </a>{' '}
-        {/*  */}
-        <a
-          href='https://discordapp.com/users/jefid#0311'
-          rel='noreferrer'
-          target='_blank'
-        >
-          <Tooltip title='Add me on Discord'>
-            <SvgIcon
-              alt='discord-icon'
-              fontSize='large'
-              component={SportsEsportsIcon}
-            />
-          </Tooltip>
-        </a>
-      </Container>
-
       <form id="contactform">
         <Container >
           <TextField
