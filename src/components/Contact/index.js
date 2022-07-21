@@ -15,7 +15,7 @@ function Contact() {
 
       <Container>
         <a
-          href='mailto:sraewolfskill@gmail.com'
+          href='mailto:jquandt411@gmail.com'
           rel='noreferrer'
           target='_blank'
         >
